@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/test/array_for_matrix.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "array_for_matrix_7"
+	}
+}

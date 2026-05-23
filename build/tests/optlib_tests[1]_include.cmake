@@ -1,0 +1,5 @@
+if(EXISTS "/home/arsen/projects/optimizer-bench/optlib/build/tests/optlib_tests[1]_tests.cmake")
+  include("/home/arsen/projects/optimizer-bench/optlib/build/tests/optlib_tests[1]_tests.cmake")
+else()
+  add_test(optlib_tests_NOT_BUILT optlib_tests_NOT_BUILT)
+endif()
