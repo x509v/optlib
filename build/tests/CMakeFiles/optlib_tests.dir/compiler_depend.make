@@ -263,6 +263,7 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
   /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
@@ -301,6 +302,8 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_algo.h \
   /usr/include/c++/13/bits/ranges_algobase.h \
@@ -324,6 +327,7 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
@@ -332,6 +336,7 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
@@ -375,6 +380,7 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/c++/13/cxxabi.h \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
   /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
@@ -398,12 +404,15 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
+  /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/semaphore \
   /usr/include/c++/13/set \
@@ -608,6 +617,7 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: /home/arsen/projects/optimize
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -1018,6 +1028,8 @@ tests/CMakeFiles/optlib_tests.dir/test_genetic.cpp.o: /home/arsen/projects/optim
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/ranges_algo.h \
   /usr/include/c++/13/bits/ranges_algobase.h \
@@ -1049,6 +1061,7 @@ tests/CMakeFiles/optlib_tests.dir/test_genetic.cpp.o: /home/arsen/projects/optim
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
@@ -1115,12 +1128,15 @@ tests/CMakeFiles/optlib_tests.dir/test_genetic.cpp.o: /home/arsen/projects/optim
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
+  /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/semaphore \
   /usr/include/c++/13/set \
@@ -1325,6 +1341,7 @@ tests/CMakeFiles/optlib_tests.dir/test_genetic.cpp.o: /home/arsen/projects/optim
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -1659,6 +1676,8 @@ tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o: /home/arsen/projects/optimiz
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/concepts.hpp \
+  /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/finite_diff.hpp \
+  /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/linesearch.hpp \
   /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/types.hpp \
   /home/arsen/projects/optimizer-bench/optlib/include/optlib/methods/lbfgs.hpp \
   /usr/include/alloca.h \
@@ -1697,6 +1716,7 @@ tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o: /home/arsen/projects/optimiz
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
   /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
@@ -1758,6 +1778,7 @@ tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o: /home/arsen/projects/optimiz
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
@@ -1809,6 +1830,7 @@ tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o: /home/arsen/projects/optimiz
   /usr/include/c++/13/cxxabi.h \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
   /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
@@ -3730,6 +3752,8 @@ tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o: /home/arsen/projects/optimi
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
@@ -3764,12 +3788,6 @@ tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o: /home/arsen/projects/optimi
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
@@ -3799,6 +3817,14 @@ tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o: /home/arsen/projects/optimi
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/syscall.h:
 
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
@@ -3892,6 +3918,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
 
 _deps/eigen3-src/Eigen/src/Core/VectorBlock.h:
 
+/usr/include/c++/13/bits/stl_deque.h:
+
 _deps/eigen3-src/Eigen/src/Core/CwiseUnaryOp.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
@@ -3937,6 +3965,8 @@ _deps/eigen3-src/Eigen/src/SVD/BDCSVD.h:
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 _deps/eigen3-src/Eigen/src/misc/Image.h:
+
+/usr/include/c++/13/bits/deque.tcc:
 
 _deps/eigen3-src/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
@@ -3988,8 +4018,6 @@ _deps/eigen3-src/Eigen/src/Eigenvalues/RealQZ.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
 _deps/eigen3-src/Eigen/src/Core/util/ReshapedHelper.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
@@ -4025,6 +4053,10 @@ _deps/eigen3-src/Eigen/src/misc/Kernel.h:
 /home/arsen/projects/optimizer-bench/optlib/tests/test_linesearch.cpp:
 
 _deps/eigen3-src/Eigen/src/Core/products/TriangularSolverVector.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/libintl.h:
 
 _deps/eigen3-src/Eigen/src/Core/Dot.h:
 
@@ -4112,6 +4144,8 @@ _deps/eigen3-src/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 _deps/eigen3-src/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
+/usr/include/c++/13/bits/stl_numeric.h:
+
 _deps/eigen3-src/Eigen/src/Geometry/Homogeneous.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
@@ -4137,10 +4171,6 @@ _deps/eigen3-src/Eigen/src/Core/util/Memory.h:
 _deps/eigen3-src/Eigen/src/Core/Random.h:
 
 _deps/eigen3-src/Eigen/src/Core/ReturnByValue.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-_deps/eigen3-src/Eigen/Jacobi:
 
 _deps/eigen3-src/Eigen/src/Core/Replicate.h:
 
@@ -4189,10 +4219,6 @@ _deps/eigen3-src/Eigen/src/Eigenvalues/ComplexSchur.h:
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 _deps/eigen3-src/Eigen/src/Eigenvalues/EigenSolver.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h:
-
-_deps/eigen3-src/Eigen/src/Core/ConditionEstimator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
@@ -4245,8 +4271,6 @@ _deps/eigen3-src/Eigen/src/Core/arch/SSE/MathFunctions.h:
 _deps/eigen3-src/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
 _deps/eigen3-src/Eigen/src/Core/ArrayWrapper.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 _deps/eigen3-src/Eigen/src/Core/Transpositions.h:
 
@@ -4572,6 +4596,14 @@ _deps/eigen3-src/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
 /usr/include/c++/13/bits/postypes.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h:
+
+_deps/eigen3-src/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/include/c++/13/bits/random.tcc:
+
+/usr/include/c++/13/random:
+
 _deps/eigen3-src/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /usr/include/c++/13/bits/range_access.h:
@@ -4660,10 +4692,6 @@ _deps/eigen3-src/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
-/usr/include/libintl.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
@@ -4704,10 +4732,6 @@ _deps/eigen3-src/Eigen/Eigenvalues:
 
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
-_deps/eigen3-src/Eigen/src/misc/RealSvd2x2.h:
-
-/usr/include/c++/13/concepts:
-
 /usr/include/c++/13/condition_variable:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
@@ -4736,6 +4760,12 @@ _deps/eigen3-src/Eigen/src/Core/util/IntegralConstant.h:
 
 /usr/include/linux/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+_deps/eigen3-src/Eigen/Jacobi:
+
+/usr/include/c++/13/deque:
+
 /usr/include/c++/13/exception:
 
 /usr/include/c++/13/bits/memory_resource.h:
@@ -4752,11 +4782,23 @@ _deps/eigen3-src/Eigen/src/Core/Diagonal.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/ext/type_traits.h:
+
 /usr/include/c++/13/functional:
 
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/c++/13/iomanip:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/signal.h:
 
 /usr/include/strings.h:
 
@@ -4784,9 +4826,25 @@ _deps/eigen3-src/Eigen/src/Core/functors/AssignmentFunctors.h:
 
 /usr/include/c++/13/numbers:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/13/numeric:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
 _deps/eigen3-src/Eigen/src/QR/HouseholderQR.h:
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
+_deps/eigen3-src/Eigen/src/misc/RealSvd2x2.h:
+
+/usr/include/c++/13/concepts:
+
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -4946,6 +5004,8 @@ _deps/eigen3-src/Eigen/src/Core/Array.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/include/c++/13/bits/random.h:
+
 /usr/include/c++/13/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
@@ -4953,6 +5013,10 @@ _deps/eigen3-src/Eigen/src/Core/Array.h:
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h:
 
@@ -4970,10 +5034,6 @@ _deps/eigen3-src/Eigen/Geometry:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
 _deps/eigen3-src/Eigen/src/Core/Fuzzy.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -4988,11 +5048,7 @@ _deps/eigen3-src/Eigen/src/Core/Fuzzy.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
@@ -5017,17 +5073,3 @@ _deps/eigen3-src/Eigen/Householder:
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/syscall.h:
-
-/usr/include/c++/13/ext/type_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
