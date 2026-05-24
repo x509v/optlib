@@ -257,6 +257,30 @@ bench_newton.cpp.s:
 	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/bench_newton.cpp.s
 .PHONY : bench_newton.cpp.s
 
+bench_simd.o: bench_simd.cpp.o
+.PHONY : bench_simd.o
+
+# target to build an object file
+bench_simd.cpp.o:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/bench_simd.cpp.o
+.PHONY : bench_simd.cpp.o
+
+bench_simd.i: bench_simd.cpp.i
+.PHONY : bench_simd.i
+
+# target to preprocess a source file
+bench_simd.cpp.i:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/bench_simd.cpp.i
+.PHONY : bench_simd.cpp.i
+
+bench_simd.s: bench_simd.cpp.s
+.PHONY : bench_simd.s
+
+# target to generate assembly for a file
+bench_simd.cpp.s:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/bench_simd.cpp.s
+.PHONY : bench_simd.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -280,6 +304,9 @@ help:
 	@echo "... bench_newton.o"
 	@echo "... bench_newton.i"
 	@echo "... bench_newton.s"
+	@echo "... bench_simd.o"
+	@echo "... bench_simd.i"
+	@echo "... bench_simd.s"
 .PHONY : help
 
 

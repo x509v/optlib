@@ -139,13 +139,28 @@ tests/CMakeFiles/optlib_tests.dir/test_linesearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/optlib_tests.dir/test_linesearch.cpp.s"
 	cd /home/arsen/projects/optimizer-bench/optlib/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arsen/projects/optimizer-bench/optlib/tests/test_linesearch.cpp -o CMakeFiles/optlib_tests.dir/test_linesearch.cpp.s
 
+tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o: tests/CMakeFiles/optlib_tests.dir/flags.make
+tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o: /home/arsen/projects/optimizer-bench/optlib/tests/test_simd.cpp
+tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o: tests/CMakeFiles/optlib_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o"
+	cd /home/arsen/projects/optimizer-bench/optlib/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o -MF CMakeFiles/optlib_tests.dir/test_simd.cpp.o.d -o CMakeFiles/optlib_tests.dir/test_simd.cpp.o -c /home/arsen/projects/optimizer-bench/optlib/tests/test_simd.cpp
+
+tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/optlib_tests.dir/test_simd.cpp.i"
+	cd /home/arsen/projects/optimizer-bench/optlib/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arsen/projects/optimizer-bench/optlib/tests/test_simd.cpp > CMakeFiles/optlib_tests.dir/test_simd.cpp.i
+
+tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/optlib_tests.dir/test_simd.cpp.s"
+	cd /home/arsen/projects/optimizer-bench/optlib/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arsen/projects/optimizer-bench/optlib/tests/test_simd.cpp -o CMakeFiles/optlib_tests.dir/test_simd.cpp.s
+
 # Object files for target optlib_tests
 optlib_tests_OBJECTS = \
 "CMakeFiles/optlib_tests.dir/test_core.cpp.o" \
 "CMakeFiles/optlib_tests.dir/test_newton.cpp.o" \
 "CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o" \
 "CMakeFiles/optlib_tests.dir/test_genetic.cpp.o" \
-"CMakeFiles/optlib_tests.dir/test_linesearch.cpp.o"
+"CMakeFiles/optlib_tests.dir/test_linesearch.cpp.o" \
+"CMakeFiles/optlib_tests.dir/test_simd.cpp.o"
 
 # External object files for target optlib_tests
 optlib_tests_EXTERNAL_OBJECTS =
@@ -155,12 +170,13 @@ tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o
 tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o
 tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/test_genetic.cpp.o
 tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/test_linesearch.cpp.o
+tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o
 tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/build.make
 tests/optlib_tests: lib/libgtest.a
 tests/optlib_tests: lib/libgtest_main.a
 tests/optlib_tests: lib/libgtest.a
 tests/optlib_tests: tests/CMakeFiles/optlib_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable optlib_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable optlib_tests"
 	cd /home/arsen/projects/optimizer-bench/optlib/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/optlib_tests.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/arsen/projects/optimizer-bench/optlib/build/tests && /usr/bin/cmake -D TEST_TARGET=optlib_tests -D TEST_EXECUTABLE=/home/arsen/projects/optimizer-bench/optlib/build/tests/optlib_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/arsen/projects/optimizer-bench/optlib/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=optlib_tests_TESTS -D CTEST_FILE=/home/arsen/projects/optimizer-bench/optlib/build/tests/optlib_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.28/Modules/GoogleTestAddTests.cmake
 

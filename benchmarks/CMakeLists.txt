@@ -2,6 +2,7 @@ add_executable(optlib_bench
     bench_newton.cpp
     bench_lbfgs.cpp
     bench_cache.cpp
+    bench_simd.cpp
 )
 
 target_link_libraries(optlib_bench PRIVATE

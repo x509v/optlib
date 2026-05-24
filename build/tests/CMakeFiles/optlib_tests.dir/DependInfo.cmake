@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/arsen/projects/optimizer-bench/optlib/tests/test_lbfgs.cpp" "tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o" "gcc" "tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o.d"
   "/home/arsen/projects/optimizer-bench/optlib/tests/test_linesearch.cpp" "tests/CMakeFiles/optlib_tests.dir/test_linesearch.cpp.o" "gcc" "tests/CMakeFiles/optlib_tests.dir/test_linesearch.cpp.o.d"
   "/home/arsen/projects/optimizer-bench/optlib/tests/test_newton.cpp" "tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o" "gcc" "tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o.d"
+  "/home/arsen/projects/optimizer-bench/optlib/tests/test_simd.cpp" "tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o" "gcc" "tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

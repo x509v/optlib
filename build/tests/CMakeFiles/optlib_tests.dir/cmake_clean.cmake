@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/optlib_tests.dir/test_linesearch.cpp.o.d"
   "CMakeFiles/optlib_tests.dir/test_newton.cpp.o"
   "CMakeFiles/optlib_tests.dir/test_newton.cpp.o.d"
+  "CMakeFiles/optlib_tests.dir/test_simd.cpp.o"
+  "CMakeFiles/optlib_tests.dir/test_simd.cpp.o.d"
   "optlib_tests"
   "optlib_tests.pdb"
   "optlib_tests[1]_tests.cmake"

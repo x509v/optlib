@@ -305,6 +305,30 @@ test_newton.cpp.s:
 	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/optlib_tests.dir/build.make tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.s
 .PHONY : test_newton.cpp.s
 
+test_simd.o: test_simd.cpp.o
+.PHONY : test_simd.o
+
+# target to build an object file
+test_simd.cpp.o:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/optlib_tests.dir/build.make tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.o
+.PHONY : test_simd.cpp.o
+
+test_simd.i: test_simd.cpp.i
+.PHONY : test_simd.i
+
+# target to preprocess a source file
+test_simd.cpp.i:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/optlib_tests.dir/build.make tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.i
+.PHONY : test_simd.cpp.i
+
+test_simd.s: test_simd.cpp.s
+.PHONY : test_simd.s
+
+# target to generate assembly for a file
+test_simd.cpp.s:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/optlib_tests.dir/build.make tests/CMakeFiles/optlib_tests.dir/test_simd.cpp.s
+.PHONY : test_simd.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -334,6 +358,9 @@ help:
 	@echo "... test_newton.o"
 	@echo "... test_newton.i"
 	@echo "... test_newton.s"
+	@echo "... test_simd.o"
+	@echo "... test_simd.i"
+	@echo "... test_simd.s"
 .PHONY : help
 
 
