@@ -3092,6 +3092,7 @@ tests/CMakeFiles/optlib_tests.dir/test_newton.cpp.o: /home/arsen/projects/optimi
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/concepts.hpp \
+  /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/linesearch.hpp \
   /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/types.hpp \
   /home/arsen/projects/optimizer-bench/optlib/include/optlib/methods/newton.hpp \
   /usr/include/alloca.h \

@@ -646,4 +646,6 @@ tests/CMakeFiles/optlib_tests.dir/test_core.cpp.o: \
  /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/linesearch.hpp \
  /home/arsen/projects/optimizer-bench/optlib/include/optlib/methods/newton.hpp \
  /home/arsen/projects/optimizer-bench/optlib/include/optlib/methods/lbfgs.hpp \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc \
  /home/arsen/projects/optimizer-bench/optlib/include/optlib/methods/genetic.hpp

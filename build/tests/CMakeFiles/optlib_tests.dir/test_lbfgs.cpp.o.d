@@ -321,6 +321,8 @@ tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o: \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
  /home/arsen/projects/optimizer-bench/optlib/include/optlib/methods/lbfgs.hpp \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc \
  /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/types.hpp \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/Eigen/Dense \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/Eigen/Core \
@@ -641,4 +643,6 @@ tests/CMakeFiles/optlib_tests.dir/test_lbfgs.cpp.o: \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/Eigen/src/Eigenvalues/./RealQZ.h \
  /home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/concepts.hpp
+ /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/concepts.hpp \
+ /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/linesearch.hpp \
+ /home/arsen/projects/optimizer-bench/optlib/include/optlib/core/finite_diff.hpp
