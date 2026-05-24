@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/optlib_bench.dir/bench_cache.cpp.o"
+  "CMakeFiles/optlib_bench.dir/bench_cache.cpp.o.d"
   "CMakeFiles/optlib_bench.dir/bench_lbfgs.cpp.o"
   "CMakeFiles/optlib_bench.dir/bench_lbfgs.cpp.o.d"
   "CMakeFiles/optlib_bench.dir/bench_newton.cpp.o"

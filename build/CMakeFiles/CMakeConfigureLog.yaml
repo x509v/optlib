@@ -2600,3 +2600,43 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:71 (check_cxx_compiler_flag)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:88 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_std=cpp03"
+    directories:
+      source: "/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5"
+      binary: "/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/arsen/projects/optimizer-bench/optlib/build/_deps/eigen3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_std=cpp03"
+      cached: true
+      stdout: |
+        Change Dir: '/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_748aa/fast
+        gmake[1]: Entering directory '/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_748aa.dir/build.make CMakeFiles/cmTC_748aa.dir/build
+        gmake[2]: Entering directory '/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5'
+        Building CXX object CMakeFiles/cmTC_748aa.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_748aa.dir/src.cxx.o -c /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5/src.cxx
+        Linking CXX executable cmTC_748aa
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_748aa.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_748aa.dir/src.cxx.o -o cmTC_748aa 
+        gmake[2]: Leaving directory '/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5'
+        gmake[1]: Leaving directory '/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles/CMakeScratch/TryCompile-JXpgj5'
+        
+      exitCode: 0
+...
