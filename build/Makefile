@@ -14341,6 +14341,19 @@ optlib_bench/fast:
 	$(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/build
 .PHONY : optlib_bench/fast
 
+#=============================================================================
+# Target rules for targets named optlib_methods
+
+# Build rule for target.
+optlib_methods: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 optlib_methods
+.PHONY : optlib_methods
+
+# fast build rule for target.
+optlib_methods/fast:
+	$(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/build
+.PHONY : optlib_methods/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -15020,6 +15033,7 @@ help:
 	@echo "... num_dimensions"
 	@echo "... numext"
 	@echo "... optlib_bench"
+	@echo "... optlib_methods"
 	@echo "... optlib_tests"
 	@echo "... packetmath_1"
 	@echo "... packetmath_10"

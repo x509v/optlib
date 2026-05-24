@@ -185,6 +185,20 @@ optlib_bench/fast:
 	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/build
 .PHONY : optlib_bench/fast
 
+# Convenience name for target.
+benchmarks/CMakeFiles/optlib_methods.dir/rule:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmarks/CMakeFiles/optlib_methods.dir/rule
+.PHONY : benchmarks/CMakeFiles/optlib_methods.dir/rule
+
+# Convenience name for target.
+optlib_methods: benchmarks/CMakeFiles/optlib_methods.dir/rule
+.PHONY : optlib_methods
+
+# fast build rule for target.
+optlib_methods/fast:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/build
+.PHONY : optlib_methods/fast
+
 bench_cache.o: bench_cache.cpp.o
 .PHONY : bench_cache.o
 
@@ -232,6 +246,30 @@ bench_lbfgs.s: bench_lbfgs.cpp.s
 bench_lbfgs.cpp.s:
 	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/bench_lbfgs.cpp.s
 .PHONY : bench_lbfgs.cpp.s
+
+bench_methods.o: bench_methods.cpp.o
+.PHONY : bench_methods.o
+
+# target to build an object file
+bench_methods.cpp.o:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/bench_methods.cpp.o
+.PHONY : bench_methods.cpp.o
+
+bench_methods.i: bench_methods.cpp.i
+.PHONY : bench_methods.i
+
+# target to preprocess a source file
+bench_methods.cpp.i:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/bench_methods.cpp.i
+.PHONY : bench_methods.cpp.i
+
+bench_methods.s: bench_methods.cpp.s
+.PHONY : bench_methods.s
+
+# target to generate assembly for a file
+bench_methods.cpp.s:
+	cd /home/arsen/projects/optimizer-bench/optlib/build && $(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/bench_methods.cpp.s
+.PHONY : bench_methods.cpp.s
 
 bench_newton.o: bench_newton.cpp.o
 .PHONY : bench_newton.o
@@ -295,12 +333,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... optlib_bench"
+	@echo "... optlib_methods"
 	@echo "... bench_cache.o"
 	@echo "... bench_cache.i"
 	@echo "... bench_cache.s"
 	@echo "... bench_lbfgs.o"
 	@echo "... bench_lbfgs.i"
 	@echo "... bench_lbfgs.s"
+	@echo "... bench_methods.o"
+	@echo "... bench_methods.i"
+	@echo "... bench_methods.s"
 	@echo "... bench_newton.o"
 	@echo "... bench_newton.i"
 	@echo "... bench_newton.s"

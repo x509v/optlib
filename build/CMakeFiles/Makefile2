@@ -2251,6 +2251,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 
 # Recursive "all" directory target.
 benchmarks/all: benchmarks/CMakeFiles/optlib_bench.dir/all
+benchmarks/all: benchmarks/CMakeFiles/optlib_methods.dir/all
 .PHONY : benchmarks/all
 
 # Recursive "preinstall" directory target.
@@ -2259,6 +2260,7 @@ benchmarks/preinstall:
 
 # Recursive "clean" directory target.
 benchmarks/clean: benchmarks/CMakeFiles/optlib_bench.dir/clean
+benchmarks/clean: benchmarks/CMakeFiles/optlib_methods.dir/clean
 .PHONY : benchmarks/clean
 
 #=============================================================================
@@ -3096,7 +3098,7 @@ _deps/eigen3-build/CMakeFiles/buildtests.dir/all: _deps/eigen3-build/unsupported
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/CMakeFiles/buildtests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 84
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 83
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/CMakeFiles/buildtests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/CMakeFiles/buildtests.dir/rule
@@ -3122,7 +3124,7 @@ _deps/eigen3-build/CMakeFiles/check.dir/all: _deps/eigen3-build/CMakeFiles/build
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 84
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 83
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/CMakeFiles/check.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/CMakeFiles/check.dir/rule
@@ -4819,12 +4821,12 @@ _deps/eigen3-build/test/CMakeFiles/nomalloc_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=54 "Built target nomalloc_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target nomalloc_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/rule
@@ -4845,12 +4847,12 @@ _deps/eigen3-build/test/CMakeFiles/nomalloc_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target nomalloc_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=54 "Built target nomalloc_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/nomalloc_3.dir/rule
@@ -5510,12 +5512,12 @@ _deps/eigen3-build/test/CMakeFiles/mixingtypes_4.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/build.make _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/build.make _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=53 "Built target mixingtypes_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target mixingtypes_5"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/rule
@@ -5536,12 +5538,12 @@ _deps/eigen3-build/test/CMakeFiles/mixingtypes_5.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/build.make _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/build.make _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target mixingtypes_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=53 "Built target mixingtypes_6"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/rule
@@ -5562,12 +5564,12 @@ _deps/eigen3-build/test/CMakeFiles/mixingtypes_6.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/io.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/io.dir/build.make _deps/eigen3-build/test/CMakeFiles/io.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/io.dir/build.make _deps/eigen3-build/test/CMakeFiles/io.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=39 "Built target io"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/io.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/io.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/io.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/io.dir/rule
@@ -6405,7 +6407,7 @@ _deps/eigen3-build/test/CMakeFiles/linearstructure.dir/all: _deps/eigen3-build/t
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/linearstructure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/linearstructure.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure.dir/rule
@@ -6426,12 +6428,12 @@ _deps/eigen3-build/test/CMakeFiles/linearstructure.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=42 "Built target linearstructure_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target linearstructure_1"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure_1.dir/rule
@@ -6634,12 +6636,12 @@ _deps/eigen3-build/test/CMakeFiles/linearstructure_8.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/build.make _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/build.make _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=43 "Built target linearstructure_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target linearstructure_9"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/rule
@@ -6660,12 +6662,12 @@ _deps/eigen3-build/test/CMakeFiles/linearstructure_9.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/build.make _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/build.make _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target linearstructure_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=42 "Built target linearstructure_10"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/linearstructure_10.dir/rule
@@ -9309,12 +9311,12 @@ _deps/eigen3-build/test/CMakeFiles/product_large_6.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target product_large_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=63 "Built target product_large_7"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/rule
@@ -9335,12 +9337,12 @@ _deps/eigen3-build/test/CMakeFiles/product_large_7.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=63 "Built target product_large_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target product_large_8"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_large_8.dir/rule
@@ -9767,12 +9769,12 @@ _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_3.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/build.make _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/build.make _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=20 "Built target diagonalmatrices_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target diagonalmatrices_4"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/rule
@@ -9793,12 +9795,12 @@ _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_4.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/build.make _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/build.make _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target diagonalmatrices_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=20 "Built target diagonalmatrices_5"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/diagonalmatrices_5.dir/rule
@@ -10731,12 +10733,12 @@ _deps/eigen3-build/test/CMakeFiles/mapped_matrix_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target mapped_matrix_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=46 "Built target mapped_matrix_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapped_matrix_2.dir/rule
@@ -10835,12 +10837,12 @@ _deps/eigen3-build/test/CMakeFiles/mapped_matrix_5.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=46 "Built target mapped_matrix_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target mapped_matrix_11"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapped_matrix_11.dir/rule
@@ -11237,12 +11239,12 @@ _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=47 "Built target mapstaticmethods_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target mapstaticmethods_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/rule
@@ -11263,12 +11265,12 @@ _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target mapstaticmethods_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=47 "Built target mapstaticmethods_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/mapstaticmethods_3.dir/rule
@@ -12368,7 +12370,7 @@ _deps/eigen3-build/test/CMakeFiles/ref.dir/all: _deps/eigen3-build/test/CMakeFil
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/ref.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/ref.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/ref.dir/rule
@@ -12441,12 +12443,12 @@ _deps/eigen3-build/test/CMakeFiles/ref_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/ref_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/ref_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/ref_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/ref_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/ref_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target ref_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=78 "Built target ref_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/ref_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/ref_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/ref_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/ref_3.dir/rule
@@ -13325,12 +13327,12 @@ _deps/eigen3-build/test/CMakeFiles/product_symm.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target product_symm_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=67 "Built target product_symm_1"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/rule
@@ -13351,12 +13353,12 @@ _deps/eigen3-build/test/CMakeFiles/product_symm_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=67 "Built target product_symm_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target product_symm_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_symm_2.dir/rule
@@ -13981,12 +13983,12 @@ _deps/eigen3-build/test/CMakeFiles/product_trmm_111.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target product_trmm_21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=70 "Built target product_trmm_21"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_trmm_21.dir/rule
@@ -14137,12 +14139,12 @@ _deps/eigen3-build/test/CMakeFiles/product_trmm_112.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/build.make _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=70 "Built target product_trmm_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target product_trmm_22"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/product_trmm_22.dir/rule
@@ -15232,7 +15234,7 @@ _deps/eigen3-build/test/CMakeFiles/stable_norm.dir/all: _deps/eigen3-build/test/
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/stable_norm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/stable_norm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/stable_norm.dir/rule
@@ -15357,12 +15359,12 @@ _deps/eigen3-build/test/CMakeFiles/stable_norm_6.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=89 "Built target stable_norm_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target stable_norm_1"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/stable_norm_1.dir/rule
@@ -15420,7 +15422,7 @@ _deps/eigen3-build/test/CMakeFiles/permutationmatrices.dir/all: _deps/eigen3-bui
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/permutationmatrices.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/permutationmatrices.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/permutationmatrices.dir/rule
@@ -15597,12 +15599,12 @@ _deps/eigen3-build/test/CMakeFiles/permutationmatrices_6.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/build.make _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/build.make _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target permutationmatrices_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=59 "Built target permutationmatrices_7"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/permutationmatrices_7.dir/rule
@@ -16357,7 +16359,7 @@ _deps/eigen3-build/test/CMakeFiles/inverse.dir/all: _deps/eigen3-build/test/CMak
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/inverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/inverse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/inverse.dir/rule
@@ -16560,12 +16562,12 @@ _deps/eigen3-build/test/CMakeFiles/inverse_7.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/build.make _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/build.make _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=39 "Built target inverse_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target inverse_8"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/inverse_8.dir/rule
@@ -16602,7 +16604,7 @@ _deps/eigen3-build/test/CMakeFiles/qr.dir/all: _deps/eigen3-build/test/CMakeFile
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/qr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/qr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/qr.dir/rule
@@ -16857,12 +16859,12 @@ _deps/eigen3-build/test/CMakeFiles/qr_8.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/qr_9.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/qr_9.dir/build.make _deps/eigen3-build/test/CMakeFiles/qr_9.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/qr_9.dir/build.make _deps/eigen3-build/test/CMakeFiles/qr_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target qr_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=74 "Built target qr_9"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/qr_9.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/qr_9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/qr_9.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/qr_9.dir/rule
@@ -16948,7 +16950,7 @@ _deps/eigen3-build/test/CMakeFiles/qr_colpivoting.dir/all: _deps/eigen3-build/te
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/qr_colpivoting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/qr_colpivoting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/qr_colpivoting.dir/rule
@@ -16969,12 +16971,12 @@ _deps/eigen3-build/test/CMakeFiles/qr_colpivoting.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=74 "Built target qr_colpivoting_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target qr_colpivoting_1"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/qr_colpivoting_1.dir/rule
@@ -20044,12 +20046,12 @@ _deps/eigen3-build/test/CMakeFiles/householder_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/householder_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/householder_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/householder_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/householder_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/householder_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=35 "Built target householder_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target householder_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/householder_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/householder_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/householder_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/householder_2.dir/rule
@@ -20070,12 +20072,12 @@ _deps/eigen3-build/test/CMakeFiles/householder_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/householder_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/householder_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/householder_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/householder_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/householder_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target householder_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=35 "Built target householder_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/householder_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/householder_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/householder_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/householder_3.dir/rule
@@ -20653,12 +20655,12 @@ _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=32 "Built target geo_parametrizedline_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target geo_parametrizedline_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/rule
@@ -20679,12 +20681,12 @@ _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target geo_parametrizedline_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=32 "Built target geo_parametrizedline_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_parametrizedline_3.dir/rule
@@ -21216,12 +21218,12 @@ _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=31 "Built target geo_hyperplane_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target geo_hyperplane_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/rule
@@ -21242,12 +21244,12 @@ _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_3.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/build.make _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target geo_hyperplane_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=31 "Built target geo_hyperplane_4"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/geo_hyperplane_4.dir/rule
@@ -23163,12 +23165,12 @@ _deps/eigen3-build/test/CMakeFiles/sparse_product_2.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/build.make _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target sparse_product_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=85 "Built target sparse_product_3"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/rule
@@ -23189,12 +23191,12 @@ _deps/eigen3-build/test/CMakeFiles/sparse_product_3.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/build.make _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/build.make _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=85 "Built target sparse_product_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target sparse_product_4"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/sparse_product_4.dir/rule
@@ -26060,12 +26062,12 @@ _deps/eigen3-build/test/CMakeFiles/blasutil.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/build.make _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=11 "Built target blasutil_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target blasutil_1"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/rule
@@ -26086,12 +26088,12 @@ _deps/eigen3-build/test/CMakeFiles/blasutil_1.dir/clean:
 _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/build.make _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target blasutil_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=11 "Built target blasutil_2"
 .PHONY : _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/blasutil_2.dir/rule
@@ -26430,7 +26432,7 @@ _deps/eigen3-build/test/CMakeFiles/buildsmoketests.dir/all: _deps/eigen3-build/t
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/test/CMakeFiles/buildsmoketests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/test/CMakeFiles/buildsmoketests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/test/CMakeFiles/buildsmoketests.dir/rule
@@ -26451,12 +26453,12 @@ _deps/eigen3-build/test/CMakeFiles/buildsmoketests.dir/clean:
 _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target failtest_sanity_check_ok"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=28 "Built target failtest_sanity_check_ok"
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/rule
@@ -26477,12 +26479,12 @@ _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ok.dir/clean:
 _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=28 "Built target failtest_sanity_check_ko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target failtest_sanity_check_ko"
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/failtest_sanity_check_ko.dir/rule
@@ -27985,12 +27987,12 @@ _deps/eigen3-build/failtest/CMakeFiles/ref_3_ok.dir/clean:
 _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=78 "Built target ref_3_ko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target ref_3_ko"
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/ref_3_ko.dir/rule
@@ -28765,12 +28767,12 @@ _deps/eigen3-build/failtest/CMakeFiles/llt_int_ok.dir/clean:
 _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/build.make _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target llt_int_ko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=43 "Built target llt_int_ko"
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/failtest/CMakeFiles/llt_int_ko.dir/rule
@@ -29470,7 +29472,7 @@ _deps/eigen3-build/unsupported/test/CMakeFiles/BuildUnsupported.dir/all: _deps/e
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/unsupported/test/CMakeFiles/BuildUnsupported.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/unsupported/test/CMakeFiles/BuildUnsupported.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/BuildUnsupported.dir/rule
@@ -30514,12 +30516,12 @@ _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_2.dir/clean:
 _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/build.make _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/build.make _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=50 "Built target matrix_power_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target matrix_power_1"
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_1.dir/rule
@@ -30566,12 +30568,12 @@ _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_9.dir/clean:
 _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/build.make _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/build.make _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target matrix_power_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=50 "Built target matrix_power_10"
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/matrix_power_10.dir/rule
@@ -31321,7 +31323,7 @@ _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver.dir/all: _deps/e
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver.dir/rule
@@ -31342,12 +31344,12 @@ _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver.dir/clean:
 _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/build.make _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/build.make _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=59 "Built target polynomialsolver_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target polynomialsolver_1"
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/unsupported/test/CMakeFiles/polynomialsolver_1.dir/rule
@@ -32739,12 +32741,12 @@ _deps/eigen3-build/bench/spbench/CMakeFiles/spbenchsolver.dir/clean:
 _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/build.make _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/build.make _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target spsolver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num=89 "Built target spsolver"
 .PHONY : _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
 .PHONY : _deps/eigen3-build/bench/spbench/CMakeFiles/spsolver.dir/rule
@@ -32994,6 +32996,32 @@ optlib_bench: benchmarks/CMakeFiles/optlib_bench.dir/rule
 benchmarks/CMakeFiles/optlib_bench.dir/clean:
 	$(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_bench.dir/build.make benchmarks/CMakeFiles/optlib_bench.dir/clean
 .PHONY : benchmarks/CMakeFiles/optlib_bench.dir/clean
+
+#=============================================================================
+# Target rules for target benchmarks/CMakeFiles/optlib_methods.dir
+
+# All Build rule for target.
+benchmarks/CMakeFiles/optlib_methods.dir/all: _deps/benchmark-build/src/CMakeFiles/benchmark.dir/all
+	$(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/depend
+	$(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles --progress-num= "Built target optlib_methods"
+.PHONY : benchmarks/CMakeFiles/optlib_methods.dir/all
+
+# Build rule for subdir invocation for target.
+benchmarks/CMakeFiles/optlib_methods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmarks/CMakeFiles/optlib_methods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arsen/projects/optimizer-bench/optlib/build/CMakeFiles 0
+.PHONY : benchmarks/CMakeFiles/optlib_methods.dir/rule
+
+# Convenience name for target.
+optlib_methods: benchmarks/CMakeFiles/optlib_methods.dir/rule
+.PHONY : optlib_methods
+
+# clean rule for target.
+benchmarks/CMakeFiles/optlib_methods.dir/clean:
+	$(MAKE) $(MAKESILENT) -f benchmarks/CMakeFiles/optlib_methods.dir/build.make benchmarks/CMakeFiles/optlib_methods.dir/clean
+.PHONY : benchmarks/CMakeFiles/optlib_methods.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
